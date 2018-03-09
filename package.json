@@ -1,0 +1,26 @@
+{
+  "name": "techmata_payment",
+  "version": "1.0.0",
+  "description": "Mpesa API for techmata",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoslack/Techmata.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "hoslack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoslack/Techmata/issues"
+  },
+  "homepage": "https://github.com/hoslack/Techmata#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  }
+}
