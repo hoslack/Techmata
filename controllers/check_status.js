@@ -1,11 +1,11 @@
-var request = require('request'),
-  oauth_token = "ACCESS_TOKEN",
-  url = "https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query"
-  auth = "Bearer " + oauth_token;
+const request = require('request');
+ const oauth_token = "ACCESS_TOKEN";
+ const url = "https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query";
+ const auth = "Bearer " + oauth_token;
 
   request(
     {
-      method: 'POST'
+      method: 'POST',
       url : url,
       headers : {
         "Authorization" : auth
@@ -21,4 +21,5 @@ var request = require('request'),
       // TODO: Use the body object to extract the response
       console.log(body)
     }
-  )
+  );
+
